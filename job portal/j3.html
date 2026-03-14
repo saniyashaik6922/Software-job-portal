@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Web Developer</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: #f2f5f9;
+    }
+
+    .header {
+        background-color: #16a085;
+        color: white;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 30px;
+    }
+
+    .card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .job-img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+        color: #16a085;
+    }
+
+    h3 {
+        margin-top: 15px;
+        color: #333;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 6px;
+        font-size: 14px;
+    }
+
+    .salary {
+        background-color: #e8f8f5;
+        padding: 12px;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    .back {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .back a {
+        background-color: #16a085;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .back a:hover {
+        background-color: #117a65;
+    }
+
+    @media (max-width: 768px) {
+        .main {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Web Developer</h1>
+    <p>Creating modern and responsive websites</p>
+</div>
+
+<div class="main">
+
+    <!-- Image Section -->
+    <div class="card">
+        <img src="j3.jpg" class="job-img" alt="Web Developer">
+    </div>
+
+    <!-- Content Section -->
+    <div class="card">
+        <h2>Job Overview</h2>
+        <p>
+            A Web Developer is responsible for designing, building, and maintaining
+            websites and web applications. They ensure websites are responsive,
+            visually appealing, and user-friendly.
+        </p>
+
+        <h3>Purpose of the Role</h3>
+        <p>
+            The main purpose of a Web Developer is to create functional and attractive
+            websites that provide a smooth user experience across devices.
+        </p>
+
+        <h3>Required Skills</h3>
+        <ul>
+            <li>HTML, CSS, and JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Basic UI/UX principles</li>
+            <li>Version control (Git)</li>
+            <li>Basic backend knowledge</li>
+        </ul>
+
+        <h3>Personal Qualities</h3>
+        <ul>
+            <li>Creativity and design sense</li>
+            <li>Problem-solving skills</li>
+            <li>Attention to detail</li>
+            <li>Ability to learn new tools</li>
+        </ul>
+
+        <h3>Average Salary (India)</h3>
+        <div class="salary">
+            <p>Freshers: ₹3 – ₹6 LPA</p>
+            <p>Experienced: ₹7 – ₹12+ LPA</p>
+        </div>
+
+        <h3>How to Become a Web Developer</h3>
+        <p>
+            Start by learning HTML, CSS, and JavaScript. Practice by building websites,
+            improve design skills, learn frameworks, and work on real-world projects.
+        </p>
+    </div>
+
+</div>
+
+<div class="back">
+    <a href="job.html">← Back to Jobs</a>
+</div>
+
+</body>
+</html>
